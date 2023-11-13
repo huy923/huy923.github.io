@@ -1,0 +1,1649 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Bootstrap/css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600' rel='stylesheet' type='text/css'>
+        <!-- icon -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <title>đồ án nhóm 3</title>
+    </head>
+    <body>
+        <header class="bg-primary d-flex container-fluid position-sticky">
+            <div class="d-md-none">
+            </div>
+            <div class="col">
+                <a href="index.html">
+                    <img class="icon-home" src="img/icon home.png"
+                        alt="icon home">
+                </a>
+            </div>
+            <div class="col">
+                <div class="d-none d-md-block">
+                    <div class="input-group-text bg-white rounded-5 h-75 ">
+                        <span class="fs-4"><i class="bi bi-search"></i></span>
+                        <input type="text"
+                            class="form-control border-0 no-focus"
+                            placeholder="Search-books">
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-1">
+            </div> -->
+            <button class="col-1 d-md-none rounded-circle bg-white border-0"
+                data-bs-toggle="collapse" data-bs-target="#demo-search">
+                <span class="fs-3"><i class="bi bi-search"></i></span>
+            </button>
+            <div id="demo-search" class="collapse">
+                <div class=" bg-primary">
+                    mdbfjsa
+                </div>
+            </div>
+            <!-- <div class="col-1">
+                <a href="html/login.html" class="bg-white">
+                        <span class style="font-size: 4rem; color: black"><i
+                                class="bi bi-person-circle"></i></span>
+                </a>
+            </div> -->
+            <button class="col-1 border-0 rounded-circle bg-white">
+                <a href="/html/login.html" class="bg-white">
+                    <span class style="font-size: 30px; color: black"><i
+                            class="bi bi-person-circle"></i></span>
+                </a>
+            </button>
+            <button class="col-1 rounded-circle bg-white border-0 ">
+                <span class="fs-2"><i class="bi bi-cart"></i></span>
+                <span
+                    class="position-absolute top-10 end-0 translate-middle badge rounded-pill bg-danger">0</span>
+            </button>
+        </header>
+        <!-- Nav tabs -->
+        <div class="d-none d-md-block">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item col">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+                </li>
+                <li class="nav-item col">
+                    <a class="nav-link" data-bs-toggle="tab" href="#NewBooks">New
+                        books</a>
+                </li>
+                <li class="nav-item col">
+                    <a class="nav-link " data-bs-toggle="tab" href="#Kids">Kids</a>
+                </li>
+                <li class="nav-item col">
+                    <a class="nav-link " data-bs-toggle="tab"
+                        href="#BestSellers">Best Sellers</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="home" class="tab-pane active "><br>
+                <!-- Carousel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo"
+                            data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo"
+                            data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo"
+                            data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- The slideshow/carousddel -->
+                    <div class="carousel-inner w-100">
+                        <div class="carousel-item active">
+                            <img src="img/ad 1.jpg"
+                                alt="Los Angeles" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/ad 2.jpg" alt="Chicago"
+                                class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/ad 3.jpg" alt="New York"
+                                class="d-block w-100" loading="lazy">
+                        </div>
+
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="container py-5 border-bottom">
+                    <h1 class="chance-color-h1">New & Trending</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4 ">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/book.jpg" alt="ad"
+                                            width="120"
+                                            height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Iron
+                                                Flame</h4>
+                                            <p>Rebecca Yarros</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$22.99</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img
+                                            src="img/11354221e7aaec86c4c10033a6bb590204f7b49c.jpg"
+                                            alt="ad" width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">New
+                                                Moon</h4>
+                                            <p>Stephenie Meyer</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.79</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col ps-3 d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Elon Musk.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Elon
+                                                Musk</h4>
+                                            <p>Walter Isaacson</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/I Like Myself!.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">I Like
+                                                Myself!</h4>
+                                            <p>Karen Beaumont</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.98</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container py-5 border-bottom">
+                    <h1 class="chance-color-h1">BestSellers</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Allegiant.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Allegiant</h4>
+                                            <p>Veronica Roth</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.68</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Iliad.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Iliad</h4>
+                                            <p>Homer</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Judge's List.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Judge's
+                                                List</h4>
+                                            <p>John Grisham</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.98</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Odyssey.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Odyssey</h4>
+                                            <p>Homer</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$5.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Fox in Socks.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Fox in
+                                                Socks</h4>
+                                            <p>Dr. Seuss</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Draculajpg.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Dracula</h4>
+                                            <p>Bram Stoker</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Insurgent.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Insurgent</h4>
+                                            <p>Veronica Roth</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.19</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Come Hungryjpg.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Come
+                                                Hungry</h4>
+                                            <p>Melissa Ben-Ishay</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$27.84</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container py-5">
+                    <h1 class="chance-color-h1">Memoir & Biography</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Ishmaeljpg.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Ishmael</h4>
+                                            <p>Daniel Quinn</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$14.99</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Nightjpg.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Night</h4>
+                                            <p>Elie Wiesel</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.79</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Good Night.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Good
+                                                Night</h4>
+                                            <p>Luis Alberto Urrea</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Nightingale.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Nightingale</h4>
+                                            <p>Kristin Hannah</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$7.49</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Longbourn.jpg" alt="ad"
+                                            width="120"
+                                            height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Longbourn</h4>
+                                            <p>Jo Baker</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.19</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img
+                                            src="img/Weyward.jpg"
+                                            alt="ad" width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Weyward</h4>
+                                            <p>Emilia Hart</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$21.39</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Women.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Women</h4>
+                                            <p>Kristin Hannah</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$21.99</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Little Liar.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Little
+                                                Liar</h4>
+                                            <p>Mitch Albom</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$19.99</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="NewBooks" class="tab-pane fade"><br>
+                <!-- Carousel -->
+                <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo2"
+                            data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo2"
+                            data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo2"
+                            data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner w-100">
+                        <div class="carousel-item active">
+                            <img src="img/kids advertisement (1).avif"
+                                alt="kids advertisement"
+                                class="d-block w-100 edit-kids-advertisement ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/kids advertisement (1).jpg"
+                                alt="kids advertisement"
+                                class="d-block w-100 edit-kids-advertisement">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/kids advertisement (2).jpg"
+                                alt="kids advertisement"
+                                class="d-block w-100 edit-kids-advertisement">
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#demo2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#demo2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="container py-5 border-bottom">
+                    <h1 class="chance-color-h1">New & Trending</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+
+                            <div class="col product-change pt-4 ">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/P Is For Potty.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">P Is
+                                                For
+                                                Potty</h4>
+                                            <p>Naomi Kleinberg</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$5.57</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img
+                                            src="img/11354221e7aaec86c4c10033a6bb590204f7b49c.jpg"
+                                            alt="ad" width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">New
+                                                Moon</h4>
+                                            <p>Stephenie Meyer</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.79</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Elon Musk.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Elon
+                                                Musk</h4>
+                                            <p>Walter Isaacson</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/I Like Myself!.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">I Like
+                                                Myself!</h4>
+                                            <p>Karen Beaumont</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.98</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container py-5 border-bottom">
+                    <h1 class="chance-color-h1">BestSellers</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Allegiant.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Allegiant</h4>
+                                            <p>Veronica Roth</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.68</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Iliad.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Iliad</h4>
+                                            <p>Homer</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Judge's List.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Judge's
+                                                List</h4>
+                                            <p>John Grisham</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.98</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/The Odyssey.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">The
+                                                Odyssey</h4>
+                                            <p>Homer</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$5.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Fox in Socks.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Fox in
+                                                Socks</h4>
+                                            <p>Dr. Seuss</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Draculajpg.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Dracula</h4>
+                                            <p>Bram Stoker</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Insurgent.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Insurgent</h4>
+                                            <p>Veronica Roth</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.19</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Come Hungryjpg.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Come
+                                                Hungry</h4>
+                                            <p>Melissa Ben-Ishay</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$27.84</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container py-5">
+                    <h1 class="chance-color-h1">Memoir & Biography</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Ishmaeljpg.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Ishmael</h4>
+                                            <p>Daniel Quinn</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$14.99</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Nightjpg.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Night</h4>
+                                            <p>Elie Wiesel</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.79</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Elon Musk.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Elon
+                                                Musk</h4>
+                                            <p>Walter Isaacson</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/I Like Myself!.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">I Like
+                                                Myself!</h4>
+                                            <p>Karen Beaumont</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.98</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/book.jpg" alt="ad"
+                                            width="120"
+                                            height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Iron
+                                                Flame</h4>
+                                            <p>Rebecca Yarros</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$22.99</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img
+                                            src="img/11354221e7aaec86c4c10033a6bb590204f7b49c.jpg"
+                                            alt="ad" width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">New
+                                                Moon</h4>
+                                            <p>Stephenie Meyer</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.79</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Elon Musk.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Elon
+                                                Musk</h4>
+                                            <p>Walter Isaacson</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/I Like Myself!.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">I Like
+                                                Myself!</h4>
+                                            <p>Karen Beaumont</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.98</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Kids" class="tab-pane fade"><br>
+                <!-- Carousel -->
+                <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo2"
+                            data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo2"
+                            data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo2"
+                            data-bs-slide-to="2"></button>
+                    </div>
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner w-100">
+                        <div class="carousel-item active">
+                            <img src="img/kids advertisement (1).avif"
+                                alt="kids advertisement"
+                                class="d-block w-100 edit-kids-advertisement ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/kids advertisement (1).jpg"
+                                alt="kids advertisement"
+                                class="d-block w-100 edit-kids-advertisement">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/kids advertisement (2).jpg"
+                                alt="kids advertisement"
+                                class="d-block w-100 edit-kids-advertisement">
+                        </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#demo2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#demo2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="container py-5 border-bottom">
+                    <h1 class="chance-color-h1">New & Trending</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/P Is For Potty.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">P Is
+                                                For
+                                                Potty</h4>
+                                            <p>Naomi Kleinberg</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$5.57</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img
+                                            src="img/11354221e7aaec86c4c10033a6bb590204f7b49c.jpg"
+                                            alt="ad" width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">New
+                                                Moon</h4>
+                                            <p>Stephenie Meyer</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$4.79</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/Elon Musk.jpg" alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">Elon
+                                                Musk</h4>
+                                            <p>Walter Isaacson</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$12.08</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                                <a href="#" type="ad"
+                                    class="text-decoration-none">
+                                    <div class="container btn btn-light">
+                                        <img src="img/I Like Myself!.jpg"
+                                            alt="ad"
+                                            width="120" height="200">
+                                        <div class="text-start">
+                                            <h4 class="text-primary pb-2">I Like
+                                                Myself!</h4>
+                                            <p>Karen Beaumont</p>
+                                            <div class="row">
+                                                <h5 class="col text-danger">$3.98</h5>
+                                                <div class="col d-flex">
+                                                    <span><i class="bi bi-eye"></i></span>
+                                                    <p>111</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container py-5 border-bottom">
+                    <h1 class="chance-color-h1">BestSellers</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Allegiant.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Allegiant</h4>
+                                        <p>Veronica Roth</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$3.68</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/The Iliad.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">The Iliad</h4>
+                                        <p>Homer</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$12.08</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/The Judge's List.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">The Judge's
+                                            List</h4>
+                                        <p>John Grisham</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$3.98</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/The Odyssey.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">The
+                                            Odyssey</h4>
+                                        <p>Homer</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$5.08</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Fox in Socks.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Fox in
+                                            Socks</h4>
+                                        <p>Dr. Seuss</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$12.08</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Draculajpg.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Dracula</h4>
+                                        <p>Bram Stoker</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$12.08</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Insurgent.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Insurgent</h4>
+                                        <p>Veronica Roth</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$4.19</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Come Hungryjpg.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Come
+                                            Hungry</h4>
+                                        <p>Melissa Ben-Ishay</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$27.84</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container py-5">
+                    <h1 class="chance-color-h1">Memoir & Biography</h1>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Ishmaeljpg.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Ishmael</h4>
+                                        <p>Daniel Quinn</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$14.99</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Nightjpg.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Night</h4>
+                                        <p>Elie Wiesel</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$4.79</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Elon Musk.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Elon Musk</h4>
+                                        <p>Walter Isaacson</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$12.08</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/I Like Myself!.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">I Like
+                                            Myself!</h4>
+                                        <p>Karen Beaumont</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$3.98</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/book.jpg" alt="ad" width="120"
+                                        height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Iron Flame</h4>
+                                        <p>Rebecca Yarros</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$22.99</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img
+                                        src="img/11354221e7aaec86c4c10033a6bb590204f7b49c.jpg"
+                                        alt="ad" width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">New Moon</h4>
+                                        <p>Stephenie Meyer</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$4.79</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="col d-flex">
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/Elon Musk.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">Elon Musk</h4>
+                                        <p>Walter Isaacson</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$12.08</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                            <div style="margin: 0.9rem;"></div>
+                            <div class="col product-change pt-4">
+                            <a href="#" type="ad" class="text-decoration-none">
+                                <div class="container btn btn-light">
+                                    <img src="img/I Like Myself!.jpg" alt="ad"
+                                        width="120" height="200">
+                                    <div class="text-start">
+                                        <h4 class="text-primary pb-2">I Like
+                                            Myself!</h4>
+                                        <p>Karen Beaumont</p>
+                                        <div class="row">
+                                            <h5 class="col text-danger">$3.98</h5>
+                                            <div class="col d-flex">
+                                                <span><i class="bi bi-eye"></i></span>
+                                                <p>111</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="BestSellers" class="tab-pane fade"><br>
+                <h3>Menu 4</h3>
+            </div>
+        </div>
+        <div class="bg-light bottom-0 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2 class>About us</h2>
+                        <a href="#" class="text-black text-decoration-none"><p>Tems
+                                of Use</p></a>
+                        <a href="#" class="text-black text-decoration-none"><p>Contact</p></a>
+                        <a href="#" class="text-black text-decoration-none"><p>Blog</p></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class>Support / Help</h2>
+                        <a href="#" class="text-black text-decoration-none"><p>FAQ</p></a>
+                        <a href="#" class="text-black text-decoration-none"><p>Billing
+                                FAQ</p></a>
+                        <a href="#" class="text-black text-decoration-none"><p>Delivery
+                                5Rates & Policies</p></a>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h2 class>Follow us</h2>
+                        <a href="#"
+                            class="text-black text-decoration-none d-flex">
+                            <span>
+                                <img src="img/facebook.png"
+                                    alt="icon facebook" width="25"></span>
+                            <p class="ms-2">https://www.facebook.com/shopbook</p></a>
+                        <a href="#"
+                            class="text-black text-decoration-none d-flex accordion">
+                            <span class=" start-0"><img src="img/icon zalo.png"
+                                    alt="icon-zalo" width="30"></span>
+                            <p class="ms-1">012345678910</p></a>
+                        <a href="#"
+                            class="text-black text-decoration-none d-flex">
+                            <span class="fs-3"><i class="bi bi-geo-alt-fill"></i></span>
+                            <p class="ms-3">Blog</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script defer src="Bootstrap/js/bootstrap.min.js"></script>
+        <script defer src="Bootstrap/js/main.js"></script>
+    </body>
+</html>
