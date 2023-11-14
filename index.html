@@ -12,8 +12,29 @@
         <title>đồ án nhóm 3</title>
     </head>
     <body>
-        <header class="bg-primary d-flex container-fluid position-sticky">
+        <header class="bg-primary d-flex container-fluid">
             <div class="d-md-none">
+                <div class="dropdown bg-white border-0 rounded-5">
+                    <button class="btn navbar-toggler btn-outline-light rounded-5" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class=" display-4"><i class="bi bi-list"></i></span>
+                    </button>
+                    <ul class="dropdown-menu w-100" role="tablist" aria-labelledby="dropdownMenuButton">
+                        <ul class="nav nav-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active text-black" data-bs-toggle="tab" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" data-bs-toggle="tab" href="#NewBooks">New books</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-black" data-bs-toggle="tab" href="#Kids">Kids</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-black" data-bs-toggle="tab" href="#BestSellers">Best Sellers</a>
+                            </li>
+                        </ul> 
+                    </ul>
+                </div>
             </div>
             <div class="col">
                 <a href="index.html">
@@ -31,29 +52,21 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-1">
-            </div> -->
             <button class="col-1 d-md-none rounded-circle bg-white border-0"
                 data-bs-toggle="collapse" data-bs-target="#demo-search">
                 <span class="fs-3"><i class="bi bi-search"></i></span>
             </button>
             <div id="demo-search" class="collapse">
                 <div class=" bg-primary">
-                    mdbfjsa
+                    mdbfjsasadasdasdasdsadas
                 </div>
             </div>
-            <!-- <div class="col-1">
-                <a href="html/login.html" class="bg-white">
-                        <span class style="font-size: 4rem; color: black"><i
-                                class="bi bi-person-circle"></i></span>
-                </a>
-            </div> -->
-            <button class="col-1 border-0 rounded-circle bg-white">
-                <a href="/html/login.html" class="bg-white">
-                    <span class style="font-size: 30px; color: black"><i
+            <!-- <button class="col-1 border-0 rounded-5 display-3 bg-white"> -->
+                <a href="/html/login.html" class="h-25">
+                    <span class="display-1" style="color: black;"><i
                             class="bi bi-person-circle"></i></span>
                 </a>
-            </button>
+            <!-- </button> -->
             <button class="col-1 rounded-circle bg-white border-0 ">
                 <span class="fs-2"><i class="bi bi-cart"></i></span>
                 <span
@@ -67,15 +80,13 @@
                     <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
                 </li>
                 <li class="nav-item col">
-                    <a class="nav-link" data-bs-toggle="tab" href="#NewBooks">New
-                        books</a>
+                    <a class="nav-link" data-bs-toggle="tab" href="#NewBooks">New books</a>
                 </li>
                 <li class="nav-item col">
-                    <a class="nav-link " data-bs-toggle="tab" href="#Kids">Kids</a>
+                    <a class="nav-link" data-bs-toggle="tab" href="#Kids">Kids</a>
                 </li>
                 <li class="nav-item col">
-                    <a class="nav-link " data-bs-toggle="tab"
-                        href="#BestSellers">Best Sellers</a>
+                    <a class="nav-link" data-bs-toggle="tab" href="#BestSellers">Best Sellers</a>
                 </li>
             </ul>
         </div>
@@ -1645,5 +1656,7 @@
         </div>
         <script defer src="Bootstrap/js/bootstrap.min.js"></script>
         <script defer src="Bootstrap/js/main.js"></script>
+        <script defer src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+
     </body>
 </html>
