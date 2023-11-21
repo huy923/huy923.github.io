@@ -39,12 +39,13 @@ header button {
     width: 40vmax !important;
 }
 .container {
-    transition: transform 0.3s ease !important;
+    transition: transform 1s ease !important;
 }
 
 .container:hover {
     transform: scale(1.1) !important;
 }
+
 .my-element{
     background-color: white;
     color: black;
