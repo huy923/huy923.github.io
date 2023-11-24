@@ -19,7 +19,7 @@
                 </a>
             </div>
             <div class="col">
-                <div class="d-none d-md-block">
+                <div class="d-none d-md-block mt-2">
                     <div class="input-group-text bg-white rounded-5 h-75 ">
                         <span class="fs-4"><i class="bi bi-search"></i></span>
                         <input type="text"
@@ -28,22 +28,19 @@
                     </div>
                 </div>
             </div>
-            <button class="col-1 d-md-none rounded-circle bg-white border-0"
+            <button class="d-md-none bg-white border-0 rounded-pill"
                 data-bs-toggle="collapse" data-bs-target="#demo-search">
-                <span class="fs-3"><i class="bi bi-search"></i></span>
+                <span class="fs-3 p-3"><i class="bi bi-search"></i></span>
             </button>
-            <div id="demo-search" class="collapse">
-                <div class="bg-primary">
-                    dmdbfjsasadasdasdasdsada
-                </div>
-            </div>
-            <button class="border-0 rounded-circle bg-white">
-                <a href="./login.html" class
-                    style="color: black;font-size:3.8em;position: relative; top:-0.32em; left:-.4rem">
+            <button class="border-0 rounded-pill bg-white"
+                style="width: 70px;">
+                <a href="./login.html"
+                    style="color: black;font-size:4.5em; position: relative; top:-0.29em; left:-.4rem">
                     <i class="bi bi-person-circle"></i>
                 </a>
             </button>
-            <button class="col-1 rounded-circle bg-white border-0 ">
+            <button class="col-1 rounded-pill bg-white border-0 "
+                style="width: 70px;">
                 <span class="fs-2"><i class="bi bi-cart"></i></span>
                 <span
                     class="position-absolute top-10 end-0 translate-middle badge rounded-pill bg-danger">0</span>
@@ -62,17 +59,16 @@
                         <h6>Format</h6>
                         <p>Category: fantacy </p>
                         <p>Language: English</p>
-                        <div class="">
-                            <div class="shadow p-3 rounded-4 d-flex">
-                                <span class=" rounded-circle d-flex"><span
-                                        class=" mt-2">Quantity: </span>
-                                    <input type="number" name="number" id
-                                        class=" form-control" value="1">
-                                    <div class="ps-4 h6 text-danger">
-                                        $26.09
-                                    </div>
-                                </span>
-                            </div>
+                        <div class="col-md-5 shadow p-3 rounded-4">
+                            <span class=" rounded-circle d-flex"><span
+                                    class=" mt-2">Quantity: </span>
+                                <input type="number" name="number"
+                                    id="quantityInput" class="form-control"
+                                    value="1">
+                                <div class="mt-2 ps-4 h5 text-danger"
+                                    id="priceDisplay">$26.09</div>
+
+                            </span>
                         </div>
                         <div class="mt-4">
                             <span class="text-success"><i
@@ -130,10 +126,74 @@
                 <p>The Empyrean series is best enjoyed in order.</p>
                 <p>Book #1 Fourth Wing</p>
                 <p>Book #2 Iron Flame</p>
+                <h1>Product Details</h1>
+                <div class="d-flex ms-3">
+                    <div class="text-end">
+                        <p class="text-black-50">Price</p>
+                        <p class="text-black-50">Publisher</p>
+                        <p class="text-black-50">Publish Date</p>
+                        <p class="text-black-50">Pages</p>
+                        <p class="text-black-50">Dimensions</p>
+                        <p class="text-black-50">Language</p>
+                        <p class="text-black-50">Type</p>
+                        <p class="text-black-50">EAN/UPC</p>
+                    </div>
+                    <div class="text-start">
+                        <p class="ms-2 text-danger"><s>$29.99</s> <span
+                                class="h6 text-black">$27.89</span></p>
+                        <p class="ms-2">Entangled: Red Tower Books</p>
+                        <p class="ms-2">November 07, 2023</p>
+                        <p class="ms-2">640</p>
+                        <p class="ms-2">6.5 X 8.5 X 2.8 inches | 1.8 pounds</p>
+                        <p class="ms-2">English</p>
+                        <p class="ms-2">Hardcover</p>
+                        <p class="ms-2">9781649374172</p>
+                    </div>
+                </div>
             </div>
-
+            <h2>YOU MIGHT ALSO ENJOY</h2>  
         </div>
+        <div class="bg-light bottom-0 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2 class>About us</h2>
+                        <a href="#" class="text-black text-decoration-none"><p>Tems
+                                of Use</p></a>
+                        <a href="#" class="text-black text-decoration-none"><p>Contact</p></a>
+                        <a href="#" class="text-black text-decoration-none"><p>Blog</p></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class>Support / Help</h2>
+                        <a href="#" class="text-black text-decoration-none"><p>FAQ</p></a>
+                        <a href="#" class="text-black text-decoration-none"><p>Billing
+                                FAQ</p></a>
+                        <a href="#" class="text-black text-decoration-none"><p>Delivery
+                                5Rates & Policies</p></a>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <h2 class>Follow us</h2>
+                        <a href="#"
+                            class="text-black text-decoration-none d-flex">
+                            <span>
+                                <img src="/img/facebook.png"
+                                    alt="icon facebook" width="25"></span>
+                            <p class="ms-2">https://www.facebook.com/shopbook</p></a>
+                        <a href="#"
+                            class="text-black text-decoration-none d-flex accordion">
+                            <span class=" start-0"><img src="/img/icon zalo.png"
+                                    alt="icon-zalo" width="30"></span>
+                            <p class="ms-1">012345678910</p></a>
+                        <a href="#"
+                            class="text-black text-decoration-none d-flex">
+                            <span class="fs-3"><i class="bi bi-geo-alt-fill"></i></span>
+                            <p class="ms-3">Blog</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <script defer src="/Bootstrap/js/bootstrap.min.js"></script>
-        <script src="/Bootstrap/js/"></script>
+        <script src="/Bootstrap/js/product.js"></script>
     </body>
 </html>
