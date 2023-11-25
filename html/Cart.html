@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/Bootstrap/css/Cart.css">
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+    <title>Cart</title>
+  </head>
+  <body>
+    <header class="bg-primary d-flex container-fluid p-2"
+      style="height: 90px;">
+      <div class="col">
+        <a href="/index.html">
+          <img class="rounded-pill" src="/img/icon home.png"
+            alt="icon home" width="70" height="70">
+        </a>
+      </div>
+      <div class="col">
+        <div class="d-none d-md-block mt-2">
+          <div class="input-group-text bg-white rounded-5 h-75 ">
+            <span class="fs-4"><i class="bi bi-search"></i></span>
+            <input type="text"
+              class="form-control border-0 no-focus"
+              placeholder="Search-books">
+          </div>
+        </div>
+      </div>
+      <button class="d-md-none bg-white border-0 rounded-pill"
+        data-bs-toggle="collapse" data-bs-target="#demo-search">
+        <span class="fs-3 p-3"><i class="bi bi-search"></i></span>
+      </button>
+      <button class="border-0 rounded-pill bg-white"
+        style="width: 70px;">
+        <a href="./login.html"
+          style="color: black;font-size:4.5em; position: relative; top:-0.29em; left:-.4rem">
+          <i class="bi bi-person-circle"></i>
+        </a>
+      </button>
+      <button class="col-1 rounded-pill bg-white border-0 "
+        style="width: 70px;">
+        <span class="fs-2"><i class="bi bi-cart"></i></span>
+        <span
+          class="position-absolute top-10 end-0 translate-middle badge rounded-pill bg-danger">0</span>
+      </button>
+    </header>
+    <div class="mt-5 container">
+      <h1>Shopping Cart</h1>
+      <button type="button" class="btn btn-danger btn-hover float-end" id="checkoutButton">CHECKOUT (TOTAL: $27.89)</button>
+      <div class="mt-5 row">
+        <div class="col-9 h6 mt-4">Item</div>
+        <div class="col-1 h6 mt-4">Qty</div>
+        <div class="col-1 h6 mt-4">Price</div>
+      </div>
+      <div class="container">
+        <div class="products">
+          <div class="row product mt-1" data-price="27.89">
+            <hr>
+            <div class="col-3 img-ad"><img src="/img/book.jpg" alt="ad"></div>
+            <div class="col-5">
+              <h3>Iron Flame</h3>
+              <p>Rebecca Yarros</p>
+              <p class="text-black-50">Hardcover</p>
+              <span class="bi-check-circle-fill text-success"><b> AVAILABLE</b></span>
+            </div>
+            <div class="col-md-2"><input type="number" name="Qty" class="quantityInput form-control" value="1"></div>
+            <div class="col-md-1 text-danger"><s>$29.99</s><span><br><span class="h6 priceDisplay">$27.89</span></span></div>
+            <button class="col-1 btn rounded-pill btn-light h-25 col-md-1 bi-trash fs-3"></button>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row product mt-1" data-price="27.89">
+            <hr>
+            <div class="col-3 img-ad"><img src="/img/Come Hungryjpg.jpg" alt="ad" width="130"></div>
+            <div class="col-5">
+              <h3>Come Hungry</h3>
+              <p>Melissa Ben-Ishay</p>
+              <p class="text-black-50">Hardcover</p>
+              <span class="bi-check-circle-fill text-success"><b> AVAILABLE</b></span>
+            </div>
+            <div class="col-md-2"><input type="number" name="Qty" class="quantityInput form-control" value="1"></div>
+            <div class="col-md-1 text-danger"><s>$29.99</s><span><br><span class="h6 priceDisplay">$25.84</span></span></div>
+            <button class="col-1 btn rounded-pill btn-light h-25 col-md-1 bi-trash fs-3"></button>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row product mt-1" data-price="27.89">
+            <hr>
+            <div class="col-3 img-ad mb-2"><img src="/img/Elon Musk.jpg" alt="ad"></div>
+            <div class="col-5">
+              <h3>Elon Musk</h3>
+              <p>Walter Isaacson</p>
+              <p class="text-black-50">Hardcover</p>
+              <span class="bi-check-circle-fill text-success"><b> AVAILABLE</b></span>
+            </div>
+            <div class="col-md-2"><input type="number" name="Qty" class="quantityInput form-control" value="1"></div>
+            <div class="col-md-1 text-danger"><s>$29.99</s><span><br><span class="h6 priceDisplay">$27.89</span></span></div>
+            <button class="col-1 btn rounded-pill btn-light h-25 col-md-1 bi-trash fs-3"></button>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row product" data-price="27.89">
+            <hr>
+            <div class="col-3 img-ad"><img src="/img/Good Night.jpg" width="130" alt="ad"></div>
+            <div class="col-5">
+              <h3>Good Night</h3>
+              <p>Luis Alberto Urrea</p>
+              <p class="text-black-50">Hardcover</p>
+              <span class="bi-check-circle-fill text-success"><b> AVAILABLE</b></span>
+            </div>
+            <div class="col-md-2"><input type="number" name="Qty" class="quantityInput form-control" value="1"></div>
+            <div class="col-md-1 text-danger"><s>$29.99</s><span><br><span class="h6 priceDisplay">$27.89</span></span></div>
+            <button class="col-1 btn rounded-pill btn-light h-25 col-md-1 bi-trash fs-3"></button>
+          </div>
+        </div>
+      </div>
+      <h2 class="mt-5">YOU MIGHT ALSO ENJOY</h2>
+            <div class=" d-flex overflow-x-scroll ">
+                <div class=" d-flex  overflow-x-visible">
+                    <img src="/img/Fox in Socks.jpg" width="200"
+                        alt="ad"
+                        class="p-2">
+                    <img src="/img/Insurgent.jpg" width="200"
+                        alt="ad" class="p-2">
+                    <img src="/img/hanya.jpg" width="200"
+                        alt="ad"
+                        class="p-2">
+                    <img src="/img/Draculajpg.jpg" width="200"
+                        alt="ad"
+                        class="p-2">
+                    <img src="/img/Edith Holler.jpg" width="200"
+                        alt="ad" class="p-2">
+                    <img src="/img/Ishmaeljpg.jpg" width="200"
+                        alt="ad"
+                        class="p-2">
+                    <img src="/img/Allegiant.jpg" width="200"
+                        alt="ad"
+                        class="p-2">
+                    <img src="/img/Nightjpg.jpg" width="200"
+                        alt="ad"
+                        class="p-2">
+                    <img src="/img/lukedumas.jpg" width="200" alt="ad"
+                        class="p-2">
+                </div>
+            </div>
+    </div>
+    <div class="bg-light bottom-0 py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h2 class>About us</h2>
+            <a href="#" class="text-black text-decoration-none"><p>Tems
+                of Use</p></a>
+            <a href="#" class="text-black text-decoration-none"><p>Contact</p></a>
+            <a href="#" class="text-black text-decoration-none"><p>Blog</p></a>
+          </div>
+          <div class="col-sm-4">
+            <h2 class>Support / Help</h2>
+            <a href="#" class="text-black text-decoration-none"><p>FAQ</p></a>
+            <a href="#" class="text-black text-decoration-none"><p>Billing
+                FAQ</p></a>
+            <a href="#" class="text-black text-decoration-none"><p>Delivery
+                5Rates & Policies</p></a>
+          </div>
+          <div class="col-sm-4 ">
+            <h2 class>Follow us</h2>
+            <a href="#"
+              class="text-black text-decoration-none d-flex">
+              <span>
+                <img src="/img/facebook.png"
+                  alt="icon facebook" width="25"></span>
+              <p class="ms-2">https://www.facebook.com/shopbook</p></a>
+            <a href="#"
+              class="text-black text-decoration-none d-flex accordion">
+              <span class=" start-0"><img
+                  src="/img/icon zalo.png"
+                  alt="icon-zalo" width="30"></span>
+              <p class="ms-1">012345678910</p></a>
+            <a href="#"
+              class="text-black text-decoration-none d-flex">
+              <span class="bi-geo-alt-fill fs-2"></span>
+              <p class="mt-2"> Blog</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="/Bootstrap/js/Cart.js"></script>
+    <script defer src="/Bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

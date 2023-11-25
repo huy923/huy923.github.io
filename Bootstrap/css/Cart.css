@@ -1,0 +1,6 @@
+.btn-hover , .img-ad{
+    transition: transform 1s ease !important;
+}
+.btn-hover:hover, .img-ad:hover{
+    transform: scale(1.1);
+}
