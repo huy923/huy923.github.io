@@ -4,22 +4,81 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+
         <!-- <link rel="stylesheet" href="/Bootstrap/css/main.css"> -->
         <link rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
         <title>product</title>
+        <style>
+            
+header {
+    padding: 10px 10px;
+    width: 100%;
+    height: 90px;
+}
+
+header .icon-home {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+}
+
+.no-focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+header button {
+    width: 60px !important;
+    height: 60px !important;
+}
+        </style>
     </head>
     <body>
-        <header class="bg-primary d-flex container-fluid p-2"
-            style="height: 90px;">
+        <header class="bg-primary d-flex container-fluid">
+            <div class="d-md-none">
+                <div class="dropdown bg-white border-0 rounded-5">
+                    <button
+                        class="btn navbar-toggler btn-outline-light rounded-5"
+                        type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class=" display-4"><i class="bi bi-list"></i></span>
+                    </button>
+                    <ul class="dropdown-menu w-100" role="tablist"
+                        aria-labelledby="dropdownMenuButton">
+                        <ul class="nav nav-tab" role="tablist">
+                            <li class="nav-item w-100 my-element">
+                                <a
+                                    class="nav-link active text-black border-bottom "
+                                    data-bs-toggle="tab" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item w-100 my-element">
+                                <a class="nav-link text-black border-bottom"
+                                    data-bs-toggle="tab" href="#NewBooks">New
+                                    books
+                                </a>
+                            </li>
+                            <li class="nav-item w-100 my-element">
+                                <a class="nav-link text-black border-bottom"
+                                    data-bs-toggle="tab" href="#Kids">Kids</a>
+                            </li>
+                            <li class="nav-item w-100 my-element">
+                                <a class="nav-link text-black "
+                                    data-bs-toggle="tab" href="#BestSellers">Best
+                                    Sellers</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
             <div class="col">
-                <a href="/index.html">
-                    <img class=" rounded-pill" src="/img/icon home.png"
-                        alt="icon home" width="70" height="70">
+                <a href="./index.html">
+                    <img class="icon-home" src="/img/icon home.png"
+                        alt="icon home">
                 </a>
             </div>
             <div class="col">
-                <div class="d-none d-md-block mt-2">
+                <div class="d-none d-md-block">
                     <div class="input-group-text bg-white rounded-5 h-75 ">
                         <span class="fs-4"><i class="bi bi-search"></i></span>
                         <input type="text"
@@ -28,22 +87,27 @@
                     </div>
                 </div>
             </div>
-            <button class="d-md-none bg-white border-0 rounded-pill"
+            <button class="col-1 d-md-none rounded-circle bg-white border-0"
                 data-bs-toggle="collapse" data-bs-target="#demo-search">
-                <span class="fs-3 p-3"><i class="bi bi-search"></i></span>
+                <span class="fs-3"><i class="bi bi-search"></i></span>
             </button>
-            <button class="border-0 rounded-pill bg-white"
-                style="width: 70px;">
-                <a href="./login.html"
-                    style="color: black;font-size:4.5em; position: relative; top:-0.29em; left:-.4rem">
+            <div id="demo-search" class="collapse">
+                <div class="bg-primary">
+                    mdbfjsasadasdasdasdsada
+                </div>
+            </div>
+            <button class="border-0 rounded-circle bg-white">
+                <a href="./html/login.html" class
+                    style="color: black;font-size:3.8em;position: relative; top:-0.32em; left:-.4rem">
                     <i class="bi bi-person-circle"></i>
                 </a>
             </button>
-            <a href="/html/Cart.html" rel="cart"
-                class="col-1 btn rounded-pill bg-white border-0">
-                <span class="fs-1 bi-cart"></span>
-                <span
-                    class="mt-4 position-absolute translate-middle badge rounded-pill bg-danger">0</span>
+            <a href="/html/Cart.html" rel="cart">
+                <button class="col-1 rounded-circle bg-white border-0 ">
+                    <span class="fs-2"><i class="bi bi-cart"></i></span>
+                    <span
+                        class="position-absolute top-10 end-0 translate-middle badge rounded-pill bg-danger">0</span>
+                </button>
             </a>
         </header>
 
